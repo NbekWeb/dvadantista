@@ -1,0 +1,260 @@
+export const menuList = [
+  {
+    title: "Услуги",
+    key: "uslugi",
+    children: [
+      {
+        title: "Цифровая стоматология",
+        key: "tsifrovaya_stomatologiya",
+        children: [
+          {
+            title: "Протезирование на имплантах",
+            key: "protezirovanie_na_implantakh",
+          },
+          {
+            title: "Протезы мостовидные на имплантах",
+            key: "protezy_mostovidnye_na_implantakh",
+          },
+          { title: "Коронка на имплант", key: "koronka_na_implant" },
+        ],
+      },
+      { title: "Детская ортодонтия", key: "detskaya_ortodontiya" },
+      { title: "Виниры", key: "viniry" },
+      { title: "Имплантация зубов", key: "implantatsiya_zubov" },
+      { title: "Брекеты", key: "brekety" },
+      { title: "Элайнеры", key: "elainery" },
+      { title: "Лечение зубов", key: "lechenie_zubov" },
+      { title: "Удаление зубов", key: "udaleniye_zubov" },
+      { title: "Профилактика", key: "profilaktika" },
+      { title: "Ортопедия", key: "ortopediya" },
+      { title: "Наращивание кости", key: "narashchivanie_kosti" },
+      {
+        title: "Протезирование на имплантах",
+        key: "protezirovanie_na_implantakh_2",
+      },
+      { title: "Ортодонтия", key: "ortodontiya" },
+      { title: "Пародонтология", key: "parodontologiya" },
+      {
+        title: "Эстетическая стоматология",
+        key: "esteticheskaya_stomatologiya",
+      },
+      { title: "Гнатология", key: "gnatologiya" },
+      { title: "Диагностика", key: "diagnostika" },
+      { title: "Протезирование зубов", key: "protezirovanie_zubov" },
+    ],
+  },
+  { title: "Цены", key: "tseny", children: [] },
+  {
+    title: "Акции",
+    key: "aktsii",
+    children: [
+      {
+        title: "Цифровая стоматология",
+        key: "tsifrovaya_stomatologiya",
+        children: [
+          {
+            title: "Протезирование на имплантах",
+            key: "protezirovanie_na_implantakh",
+          },
+          {
+            title: "Протезы мостовидные на имплантах",
+            key: "protezy_mostovidnye_na_implantakh",
+          },
+          { title: "Коронка на имплант", key: "koronka_na_implant" },
+        ],
+      },
+      { title: "Детская ортодонтия", key: "detskaya_ortodontiya" },
+      { title: "Виниры", key: "viniry" },
+      { title: "Имплантация зубов", key: "implantatsiya_zubov" },
+      { title: "Брекеты", key: "brekety" },
+      { title: "Элайнеры", key: "elainery" },
+      { title: "Лечение зубов", key: "lechenie_zubov" },
+      { title: "Удаление зубов", key: "udaleniye_zubov" },
+      { title: "Профилактика", key: "profilaktika" },
+      { title: "Ортопедия", key: "ortopediya" },
+      { title: "Наращивание кости", key: "narashchivanie_kosti" },
+      {
+        title: "Протезирование на имплантах",
+        key: "protezirovanie_na_implantakh_2",
+      },
+      { title: "Ортодонтия", key: "ortodontiya" },
+      { title: "Пародонтология", key: "parodontologiya" },
+      {
+        title: "Эстетическая стоматология",
+        key: "esteticheskaya_stomatologiya",
+      },
+      { title: "Гнатология", key: "gnatologiya" },
+      { title: "Диагностика", key: "diagnostika" },
+      { title: "Протезирование зубов", key: "protezirovanie_zubov" },
+    ],
+  },
+  { title: "Конкурс", key: "konkurs", children: [], type: "warning" },
+  { title: "Статьи", key: "statyi", children: [] },
+  {
+    title: "Врачи",
+    key: "vrachi",
+    children: [
+      {
+        title: "Цифровая стоматология",
+        key: "tsifrovaya_stomatologiya",
+        children: [
+          {
+            title: "Протезирование на имплантах",
+            key: "protezirovanie_na_implantakh",
+          },
+          {
+            title: "Протезы мостовидные на имплантах",
+            key: "protezy_mostovidnye_na_implantakh",
+          },
+          { title: "Коронка на имплант", key: "koronka_na_implant" },
+        ],
+      },
+      { title: "Детская ортодонтия", key: "detskaya_ortodontiya" },
+      { title: "Виниры", key: "viniry" },
+      { title: "Имплантация зубов", key: "implantatsiya_zubov" },
+      { title: "Брекеты", key: "brekety" },
+      { title: "Элайнеры", key: "elainery" },
+      { title: "Лечение зубов", key: "lechenie_zubov" },
+      { title: "Удаление зубов", key: "udaleniye_zubov" },
+      { title: "Профилактика", key: "profilaktika" },
+      { title: "Ортопедия", key: "ortopediya" },
+      { title: "Наращивание кости", key: "narashchivanie_kosti" },
+      {
+        title: "Протезирование на имплантах",
+        key: "protezirovanie_na_implantakh_2",
+      },
+      { title: "Ортодонтия", key: "ortodontiya" },
+      { title: "Пародонтология", key: "parodontologiya" },
+      {
+        title: "Эстетическая стоматология",
+        key: "esteticheskaya_stomatologiya",
+      },
+      { title: "Гнатология", key: "gnatologiya" },
+      { title: "Диагностика", key: "diagnostika" },
+      { title: "Протезирование зубов", key: "protezirovanie_zubov" },
+    ],
+  },
+  { title: "Наши работы", key: "nashi_rabotyi", children: [] },
+  { title: "Отзывы", key: "otzyvy", children: [] },
+  {
+    title: "О нас",
+    key: "o_nas",
+    children: [
+      {
+        title: "Цифровая стоматология",
+        key: "tsifrovaya_stomatologiya",
+        children: [
+          {
+            title: "Протезирование на имплантах",
+            key: "protezirovanie_na_implantakh",
+          },
+          {
+            title: "Протезы мостовидные на имплантах",
+            key: "protezy_mostovidnye_na_implantakh",
+          },
+          { title: "Коронка на имплант", key: "koronka_na_implant" },
+        ],
+      },
+      { title: "Детская ортодонтия", key: "detskaya_ortodontiya" },
+      { title: "Виниры", key: "viniry" },
+      { title: "Имплантация зубов", key: "implantatsiya_zubov" },
+      { title: "Брекеты", key: "brekety" },
+      { title: "Элайнеры", key: "elainery" },
+      { title: "Лечение зубов", key: "lechenie_zubov" },
+      { title: "Удаление зубов", key: "udaleniye_zubov" },
+      { title: "Профилактика", key: "profilaktika" },
+      { title: "Ортопедия", key: "ortopediya" },
+      { title: "Наращивание кости", key: "narashchivanie_kosti" },
+      {
+        title: "Протезирование на имплантах",
+        key: "protezirovanie_na_implantakh_2",
+      },
+      { title: "Ортодонтия", key: "ortodontiya" },
+      { title: "Пародонтология", key: "parodontologiya" },
+      {
+        title: "Эстетическая стоматология",
+        key: "esteticheskaya_stomatologiya",
+      },
+      { title: "Гнатология", key: "gnatologiya" },
+      { title: "Диагностика", key: "diagnostika" },
+      { title: "Протезирование зубов", key: "protezirovanie_zubov" },
+    ],
+  },
+  {
+    title: "Контакты",
+    key: "kontakty",
+    children: [
+      {
+        title: "Цифровая стоматология",
+        key: "tsifrovaya_stomatologiya",
+        children: [
+          {
+            title: "Протезирование на имплантах",
+            key: "protezirovanie_na_implantakh",
+          },
+          {
+            title: "Протезы мостовидные на имплантах",
+            key: "protezy_mostovidnye_na_implantakh",
+          },
+          { title: "Коронка на имплант", key: "koronka_na_implant" },
+        ],
+      },
+      { title: "Детская ортодонтия", key: "detskaya_ortodontiya" },
+      { title: "Виниры", key: "viniry" },
+      { title: "Имплантация зубов", key: "implantatsiya_zubov" },
+      { title: "Брекеты", key: "brekety" },
+      { title: "Элайнеры", key: "elainery" },
+      { title: "Лечение зубов", key: "lechenie_zubov" },
+      { title: "Удаление зубов", key: "udaleniye_zubov" },
+      { title: "Профилактика", key: "profilaktika" },
+      { title: "Ортопедия", key: "ortopediya" },
+      { title: "Наращивание кости", key: "narashchivanie_kosti" },
+      {
+        title: "Протезирование на имплантах",
+        key: "protezirovanie_na_implantakh_2",
+      },
+      { title: "Ортодонтия", key: "ortodontiya" },
+      { title: "Пародонтология", key: "parodontologiya" },
+      {
+        title: "Эстетическая стоматология",
+        key: "esteticheskaya_stomatologiya",
+      },
+      { title: "Гнатология", key: "gnatologiya" },
+      { title: "Диагностика", key: "diagnostika" },
+      { title: "Протезирование зубов", key: "protezirovanie_zubov" },
+    ],
+  },
+];
+
+export const services = [
+  {
+    title: "Имплантация",
+    color: "blue",
+    img: "https://dvadantista.ru/uploads/bannery/%D0%B8.png",
+  },
+  {
+    title: "Протезирование",
+    color: "green",
+    img: "https://dvadantista.ru/uploads/bannery/%D0%BF.png",
+  },
+  {
+    title: "Виниры",
+    color: "orange",
+    img: "https://dvadantista.ru/uploads/bannery/%D0%B2.png",
+  },
+  {
+    title: "Имплантация",
+    color: "blue",
+    img: "https://dvadantista.ru/uploads/bannery/%D0%B8.png",
+  },
+  {
+    title: "Протезирование",
+    color: "green",
+    img: "https://dvadantista.ru/uploads/bannery/%D0%BF.png",
+  },
+  {
+    title: "Виниры",
+    color: "orange",
+    img: "https://dvadantista.ru/uploads/bannery/%D0%B2.png",
+  },
+];
